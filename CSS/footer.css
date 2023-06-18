@@ -1,0 +1,73 @@
+.footer{
+	background-color: rebeccapurple;
+	width: 100%;
+	height: auto;
+	min-height: 75px;
+	padding-top: 5px;
+}
+#footerConnect{
+	/* background-color: tomato; */
+	height: 30px;
+	width: 100%;
+}
+#footerConnect p{
+	vertical-align: middle;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	line-height: 30px;
+}
+	
+#footerIcon{
+	/* background-color: cornflowerblue; */
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	margin: 0px;
+}
+#footerIcon ul,li{
+	height: 30px;
+	line-height: 30px;
+}
+#footerIcon a{
+	height: 30px;
+	vertical-align: middle;
+	line-height: 30px;
+}
+#footerIcon img{
+	margin: 0px;
+	padding: 0px;
+	width: 16px;
+	height: 16px;
+	line-height: 30px;
+}
+#footerEmail{
+	margin: 0px;
+	/* background-color: tomato; */
+	height: 30px;
+	width: 100%;
+}
+#footerEmail p,a{
+	/* vertical-align: middle; */
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	line-height: 30px;
+}
+#footerEmail img{
+	width: 16px;
+	height: 16px;
+	line-height: 30px;
+}
+#footerBot{
+	/* background-color: tomato; */
+	height: 30px;
+	width: 100%;
+}
+#footerBot p{
+	vertical-align: middle;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	line-height: 30px;
+}

@@ -1,0 +1,64 @@
+.navigation {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 1000px;
+	height: 75px;
+}
+.navigation ul {
+	list-style: none;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.navigation li {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	float: right;
+	height: 100%;
+}
+
+.navigation a {
+	background-color: rebeccapurple;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	height: 100%;
+	width: 100px;
+	line-height: 75px;
+}
+
+.navigation a:hover {
+	background-color: #fff;
+	color: black;
+	height: 75px;
+
+}
+#Email{
+	color: white;
+	display: inline;
+	line-height: 75px;
+	font-size: 20px;
+}
+#Email img{
+	vertical-align: middle;
+	height: 32px;
+}
+@media only screen and (max-width:600px) {
+	.navigation li {
+		margin: 0px;
+		padding: 0px;
+		display: inline;
+		height: 100%;
+	}
+	
+	.navigation a {
+		width: 80px;
+	}
+}
